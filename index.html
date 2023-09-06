@@ -3,11 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Document</title>
+<script>
+        tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            // 'smokin': ['Smokum', 'cursive'],
+            'creeper': ['Creepster', 'cursive'],
+          },
+          colors: {
+          }
+        }
+      }
+    };
+</script>
+    <title>HBD Kandace</title>
 </head>
-<body>
-    
+
+<body class="bg-cover bg-center bg-fixed md:bg-cover" style="background-image: url(assets/images/steven-van-elk-lhgCCLv1G0k-unsplash.jpg);" >
+    <h1 class="font-creeper text-5xl text-lime-300 flex justify-center">HAPPY BIRTHDAY</h1>
 </body>
-<footer>Made with love by Mads</footer>
+<footer class="font-creeper text-lime-300 flex justify-center">Made with love by Mads</footer>
 </html>

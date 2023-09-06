@@ -3,11 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Document</title>
+    <script>
+        tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            // 'smokin': ['Smokum', 'cursive'],
+            'creeper': ['Creepster', 'cursive'],
+          },
+          colors: {
+          }
+        }
+      }
+    };
+</script>
+    <title>HBD Kandace</title>
 </head>
 <body>
     
 </body>
-<footer>Made with Love by Mads</footer>
+<footer class="font-creeper text-lime-500 flex justify-center">Made with Love by Mads</footer>
 </html>
